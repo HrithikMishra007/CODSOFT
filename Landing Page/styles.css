@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+    color: #fff;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+
+}
+#nav{
+    height: 140px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    justify-content: space-between;
+}
+
+#nav-prt2{
+    display: flex;
+    /* background-color: blue; */
+    width: 45%;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav h1{
+    font-size: 20px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+}
+#nav i{
+    font-size: 20px;
+    margin-right: 5px;
+}
+#nav h5{
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+#nav img{
+    height: 50px;
+}
+#line{
+    width: 80px;
+    height: 2px;
+    background-color: red;
+}
+
+#content{
+    height: calc(100% - 140px);
+    width: 100%;
+    /* background-color: lightblue; */
+    display: flex;
+    position: relative;
+    justify-content:space-between ;
+}
+
+#left{
+    width: 36%;
+    height: 100%;
+    /* background-color: red; */
+    padding: 160px 100px;
+}
+#right{
+    width: 36%;
+    height: 100%;
+    /* background-color: red; */
+    padding: 340px 140px;
+}
+#center{
+    width: 26%;
+    height: 100%;
+    /* background-color: red; */
+    padding-top: 60px;
+}
+
+#left h1{
+    font-size: 75px;
+    line-height: 70px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+#left h1 span{
+    color: red;
+    font-weight: 500;
+}
+
+#left p{
+    margin-bottom: 50px;
+    font-size: 18px;
+    width: 70%;
+    line-height: 24px;
+}
+
+#left button{
+    background-color: red;
+    padding: 20px 40px;
+    border-radius: 50px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+#left button i{
+    margin-right: 10px;
+}
+#center-bg{
+    background-color: blue;
+    width: 100%;
+    height: 88%;
+    border-top-left-radius: 1000px;
+    border-top-left-radius: 1000px;
+    border-top-right-radius: 1000px;
+    background-image: url(https://www.niceneonsigns.com/wp-content/uploads/2020/02/Z429-COCA_COLA_NEON_SIGN_1024x1024-1.jpg);
+    background-size: 450%;
+    background-position: 30% 40%;
+    filter: blur(3px)
+}
+
+#content>img{
+    height: 100%;
+    position: absolute;
+    left: 49%;
+    z-index: 99;
+    transform: translate(-50%,0);
+}
+
+#right-elems{
+    /* background-color: red; */
+    width: 350px;
+}
+#elem1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    /* background-color: blue; */
+    opacity:0.6 ;
+    border-bottom: 1px solid #fff;
+}
+#elem1 h1{
+    font-size: 24px;
+    font-weight: 600;
+}
+#elem1 i{
+    font-size: 24px;
+}
+#elem2 h1{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    padding-top: 15px;
+}
+#elem2 p{
+    font-size: 12px;
+    width: 80%;
+    opacity: 0.6;
+}
